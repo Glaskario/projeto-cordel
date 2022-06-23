@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-image: url('https://images.wallpaperscraft.com/image/single/paint_stains_pink_136631_3840x2400.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header > h1{
+    font-family: var(--fonte2);
+    font-size: 8vw;
+    padding-top: 50px;
+    margin: 0px;
+    font-variant: small-caps;
+    
+}
+header > p{
+
+    padding-bottom: 50px;
+}
+ a{
+    text-decoration: none;
+    color: rgb(122, 118, 118);
+}
+a:hover{
+    text-decoration: underline;
+    color: #974578;
+}
+section{
+    font-family: var(--fonte1);
+    font-size: 3vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    background-size: cover;
+}
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: #1c282fad;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(43, 40, 40);
+    color:rgb(224, 212, 212);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.726);
+}
+section.imagem > p{
+    display:inline-block;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 4px;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px black;
+
+    
+}
+section#img01{
+background-image: url('https://images.wallpaperscraft.com/image/single/paint_stains_spots_138192_3840x2400.jpg');
+background-position: right center;
+background-attachment: fixed;
+
+}
+
+section#img02{
+
+    background-image: url('https://images.wallpaperscraft.com/image/single/stains_liquid_texture_146886_3840x2400.jpg');
+    background-position: left center;
+    background-attachment: fixed;
+   
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
